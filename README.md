@@ -8,7 +8,7 @@ CKEditor is a WYSIWYG text editor designed to simplify web content creation. It 
 
 ## Features
 
-* CKEditor version 4.7.1 full (28 Jun 2017)
+* CKEditor version 4.8.0 full (13 Dec 2017)
 * Rails 5.0.x, 5.1.x, 4.2.x integration
 * Files browser
 * HTML5 file uploader
@@ -32,7 +32,7 @@ gem 'ckeditor', github: 'galetahub/ckeditor'
 The last version works with Rails 3.2.x is 4.1.3
 
 ```ruby
-gem 'ckeditor', '4.1.3'
+gem "ckeditor", github: "smedstadc/ckeditor", branch: "v4.8.0"
 ```
 
 Include this inside your `config/initializers/assets.rb`:
